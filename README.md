@@ -102,19 +102,19 @@
     
     <div class="form-group">
         <label>แรงดันไฟฝั่งแรงสูงตาม Nameplate (HV Volts):</label>
-        <input type="number" id="hvVolt" placeholder="เช่น 23122" step="any">
+        <input type="number" id="hvVolt" placeholder="เช่น 22000" step="any">
     </div>
 
     <div class="form-group">
         <label>แรงดันไฟฝั่งแรงต่ำตาม Nameplate (LV Volts):</label>
-        <input type="number" id="lvVolt" placeholder="เช่น 400" step="any" value="400">
+        <input type="number" id="lvVolt" placeholder="เช่น 400" step="any">
     </div>
 
     <div class="form-group">
         <label>รูปแบบการต่อสายขดลวดแรงต่ำ (LV Connection):</label>
         <select id="lvConnection">
             <option value="star">Star (Y) - คำนวณ V_LV / √3</option>
-            <option value="delta">Delta (D) - คำนวณ V_LV ตรงๆ</option>
+            <option value="delta">Delta (D) - คำนวณ V_LV ตรง</option>
         </select>
     </div>
 
